@@ -1,0 +1,55 @@
+.buttonsWrapper {
+    background-color: #7A999B;
+    border: none;
+    color: #ffffff;
+    padding: 50px 50px;
+    margin: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    transition: all 0.4s;
+
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    border-radius: 50px;
+    overflow: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.numWrapper {
+    font-size: 80px;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 20px 20px;
+    margin: 35px;
+}
+.numWrapper.error {
+    background-color: #d00202;
+
+}
+
+.button {
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 24px;
+    padding: 15px 32px;
+
+}
+
+.button:not(:disabled):hover {
+    background-color: #E7E1C4;
+}
+.button:last-child {
+    margin-right: 0;
+}
+
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #BCC8B4;
+}
