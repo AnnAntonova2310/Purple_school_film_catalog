@@ -1,0 +1,13 @@
+.journal_add{
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+}
